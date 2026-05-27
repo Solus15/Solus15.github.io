@@ -1,18 +1,55 @@
-<link rel="stylesheet" href="css/styles.css">
-<script src="js/script.js" defer></script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>RV electricals - Home</title>
+  <title>RV Electrical Industries - Home</title>
+
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/script.js" defer></script>
+
+  <style>
+    .hero {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: white;
+      text-align: center;
+    }
+
+    /* Background Image Placeholder */
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+
+      /* INSERT IMAGE HERE */
+      background-image: url("Images/Gemini_Generated_Image_.png");
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      filter: brightness(0.5);
+      z-index: -1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
 </head>
+
 <body>
 
 <nav>
-  <div><b>⚡ RV electricals</b></div>
+  <div><b>⚡ RV Electrical Industries</b></div>
+
   <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
   <ul id="navLinks">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
@@ -25,22 +62,188 @@
   <div class="hero-content">
     <h1>Powering Industries with Precision Transformers</h1>
     <p>Reliable. Efficient. Engineered for Excellence.</p>
+
     <a href="products.html">
       <button class="btn btn-primary">Explore Products</button>
     </a>
   </div>
 </section>
+<section>
+<div class="stats-section">
 
-<div class="stats">
-  <div>25+ Years</div>
-  <div>10,000+ Units</div>
-  <div>50+ Countries</div>
-  <div>ISO Certified</div>
+  <div class="stat-card">
+    <h2>10+</h2>
+    <h4>Years of Experience</h4>
+    <p>Delivering reliable electrical solutions with trusted industry expertise.</p>
+  </div>
+
+  <div class="stat-card">
+    <h2>10,000+</h2>
+    <h4>Units Delivered</h4>
+    <p>Successfully supplying transformers and electrical systems across sectors.</p>
+  </div>
+
+  <div class="stat-card">
+    <h2>20+</h2>
+    <h4>Tenders Served</h4>
+    <p>Expanding our global presence with high-quality electrical products.</p>
+  </div>
+
+  <div class="stat-card">
+    <h2>ISO</h2>
+    <h4>Certified Company</h4>
+    <p>Committed to international standards of quality, safety, and performance.</p>
+  </div>
+
+  </section>
+
+<!-- About Section -->
+
+<section class="about-section">
+
+  <div class="about-card">
+
+    <div class="about-content">
+
+      <h2>About RV Electrical Industries</h2>
+
+      <p>
+        RV Electrical Industries is committed to delivering high-performance transformers
+        and advanced electrical solutions for industrial, commercial, and
+        infrastructure projects. With years of expertise and a focus on quality,
+        we ensure reliability, safety, and innovation in every product.
+      </p>
+
+      <a href="about.html" class="about-btn">
+        Learn More →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Our Customers Section -->
+
+<section class="customers-section">
+
+  <h2 class="customers-title">Our Customers</h2>
+
+  <p class="customers-subtitle">
+    Trusted by industries and businesses across the country.
+  </p>
+
+  <div class="customers-container">
+
+    <div class="customer-card">
+      <img src="images/customer1.png" alt="Customer Logo 1">
+    </div>
+
+    <div class="customer-card">
+      <img src="images/customer2.png" alt="Customer Logo 2">
+    </div>
+
+    <div class="customer-card">
+      <img src="images/customer3.png" alt="Customer Logo 3">
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- Auto Scrolling Image Cards Section -->
+<section class="scroll-gallery">
+
+  <h2 class="gallery-title">Highlights</h2>
+
+  <div class="scroll-container">
+    <div class="scroll-track">
+
+      <!-- Cards -->
+      <div class="image-card">
+        <img src="C:\COMP\Prot2 CG\Images\Firefly_Gemini Flash_Enhance the lighting and enhance the overall dynamics of the photo 61702.png" alt="Transformer 1">
+      </div>
+
+      <div class="image-card">
+        <img src="Images/Firefly_Gemini Flash_Make the subject wear a workers helmat and make it look aesthatically pleasing and do 90507.png" alt="Transformer 2">
+      </div>
+
+      <div class="image-card">
+        <img src="C:\COMP\Prot2 CG\Images\Firefly_Gemini Flash_Just enhance and improve the lightings 439904.png" alt="Transformer 3">
+      </div>
+
+      <div class="image-card">
+        <img src="C:\COMP\Prot2 CG\Images\Firefly_Gemini Flash_Just enhance and improve the lightings  620060.png" alt="Electrical Panel">
+      </div>
+
+      <div class="image-card">
+        <img src="Images/Firefly_Gemini Flash_Just enhance and improve the lightings 439904.png" alt="Industrial Equipment">
+      </div>
+
+      <!-- Duplicate cards for smooth infinite scrolling -->
+
+      <div class="image-card">
+        <img src="C:\COMP\Prot2 CG\Images\Firefly_Gemini Flash_Enhance the lighting and enhance the overall dynamics of the photo 61702.png" alt="Transformer 1">
+      </div>
+
+      <div class="image-card">
+        <img src="Images/Firefly_Gemini Flash_Make the subject wear a workers helmat and make it look aesthatically pleasing and do 90507.png" alt="Transformer 2">
+      </div>
+
+      <div class="image-card">
+        <img src="C:\COMP\Prot2 CG\Images\Firefly_Gemini Flash_Just enhance and improve the lightings 439904.png" alt="Transformer 3">
+      </div>
+
+      <div class="image-card">
+        <img src="C:\COMP\Prot2 CG\Images\Firefly_Gemini Flash_Just enhance and improve the lightings  620060.png" alt="Electrical Panel">
+      </div>
+
+      <div class="image-card">
+        <img src="Images/Firefly_Gemini Flash_Just enhance and improve the lightings 439904.png" alt="Industrial Equipment">
+      </div>
+
+    </div>
+  </div>
+
+</section>
 </div>
 
-<footer>
-  <p>© 2026 RV electricals</p>
-</footer>
+<footer class="footer">
 
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>⚡ RV Electrical Industries</h3>
+      <p>
+        Delivering reliable transformers and advanced electrical
+        solutions for industries worldwide.
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contact</h3>
+
+      <p>Email: info@rvelectricals.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>India</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 RV Electrical Industries | All Rights Reserved</p>
+  </div>
+
+</footer>
 </body>
 </html>
