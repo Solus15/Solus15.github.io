@@ -325,7 +325,7 @@ nav b,
 /* Footer */
 
 .footer {
-  background: #0d1b2a;
+  background: #082f57b5;
   color: white;
   padding-top: 60px;
   margin-top: 60px;
@@ -347,6 +347,15 @@ nav b,
   margin-bottom: 20px;
   font-size: 1.3rem;
   color: #4da3ff;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .footer-box p,
@@ -429,7 +438,7 @@ nav b,
   padding: 80px 20px;
 
   /* Banner Image */
-  background-image: url(" C:\\COMP\\Prot2 CG\\Images\\Firefly_Gemini Flash_align the text in a straight horizontal manner keep the little 220477(1).png");
+  background-image: url("CSS Images/Firefly_Gemini Flash_align the text in a straight horizontal manner keep the little 220477(1).png");
 
   background-size: cover;
   background-position: center;
