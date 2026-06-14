@@ -56,14 +56,14 @@ nav a{
 }
 
 .logo {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
 }
 
 nav b {
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: 0.02em;
 }
 
