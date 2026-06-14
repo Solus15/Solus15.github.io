@@ -49,14 +49,22 @@ nav a{
 .logo-section {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  padding: 12px 18px;
+  border-radius: 14px;
   color: white;
 }
 
 .logo {
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
+}
+
+nav b {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 /* HERO */
@@ -151,11 +159,12 @@ footer{
   }
 }
 nav {
-  background-color: #2168b5; /* Blue background */
-  padding: 15px 30px;
+  background: linear-gradient(90deg, #1d64b0 0%, #2f7cd8 100%);
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 96px;
 }
 
 nav a,
