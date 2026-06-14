@@ -37,6 +37,7 @@ nav ul{
 nav a{
   text-decoration:none;
   color:black;
+  font-size: 30px;
 }
 
 .menu-toggle{
@@ -62,7 +63,7 @@ nav a{
 }
 
 nav b {
-  font-size: 1.05rem;
+  font-size: 30px;
   font-weight: 1000;
   letter-spacing: 0.02em;
 }
